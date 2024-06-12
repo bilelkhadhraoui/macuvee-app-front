@@ -5,6 +5,7 @@ import SplashScreen from './components/SplashScreen';
 import OnboardingStep1 from './components/OnboardingStep1';
 import OnboardingStep2 from './components/OnboardingStep2';
 import OnboardingStep3 from './components/OnboardingStep3';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/onboarding/step1" element={<OnboardingStep1 />} />
         <Route path="/onboarding/step2" element={<OnboardingStep2 />} />
         <Route path="/onboarding/step3" element={<OnboardingStep3 />} />
-        <Route path="/home" element={<div>Home</div>} />
+        <Route path="/home" element={<Home/>} />
       </Routes>
     </Router>
   );
